@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const nama = 'chris';
 const n = 75;
 const styleJudul = {
@@ -6,6 +8,7 @@ const styleJudul = {
   fontWeight: 'bold', 
 } 
 const jam = 9;
+const[daftarMenu, setSaldo] = useState(n * 1000);
 export default function App(){
 
   return (
